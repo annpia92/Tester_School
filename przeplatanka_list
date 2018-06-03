@@ -1,0 +1,10 @@
+list1 = [1, 2, 3]
+list2 = ['a', 'b', 'c']
+lista = []
+
+
+
+for i, value in enumerate(list1):
+    lista.append(value)
+    lista.append(list2[index])
+print(lista)

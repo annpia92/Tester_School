@@ -1,0 +1,20 @@
+#lista = [10, 2, 3, 10]
+#target = 10
+#count = 0
+#for idx, value in enumerate(lista):
+#    if value == target:
+#       count += 1
+#for i in range(count):
+#    lista.remove(target)
+#    print(lista)
+lista = [10, 2, 3, 10]
+target = 10
+count = 0
+todelete=[]
+for idx, value in enumerate(lista):
+    if value == target:
+            todelete.append(idx)
+1
+for i in reversed(todelete):
+    del lista[i]
+print(lista)

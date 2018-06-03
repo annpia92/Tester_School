@@ -1,0 +1,20 @@
+numbers = [1, 4, -3, 0]
+empty = []
+i=0
+print('el nr 1 z listy to', numbers[1])
+
+
+
+for i in range((len(numbers)-1), -1, -1):
+    print('to jest od tylu', numbers[i])
+
+for value in reversed(numbers):
+    print(value)
+for idx, value in enumerate(reversed(numbers)):
+    print(idx, value)
+for pair in enumerate(reversed(numbers)):
+    print('to jest krotka', pair)
+
+
+del(numbers[1])
+

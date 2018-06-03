@@ -1,0 +1,15 @@
+x=10000
+
+if x < 0 and x % 2 == 0:
+    print('x ujemny parzysty')
+elif x < 0:
+    print('x ujemny nieparzysty')
+elif x == 10:
+    print('x rowny 10')
+else:
+    print('x nieujemny, ro<ny od 10')
+
+y =5
+
+if y:
+    print('y niezerowy')

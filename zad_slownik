@@ -1,0 +1,9 @@
+slownik = {'bar': 'foo', 'spam': 'eggs', 'baz': 'foo'}
+print(slownik)
+slownik2={}
+for key, name  in slownik.items():
+    if name not in slownik2:
+        slownik2[name] = [key]
+    else:
+        slownik2[name].append(key)
+print(slownik2)

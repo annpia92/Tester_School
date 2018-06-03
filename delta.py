@@ -1,0 +1,7 @@
+x=float(input('Podaj a'))
+y=float(input('podaj b'))
+z=float(input('podaj c'))
+float(x)
+float(y)
+float(z)
+print('delta wynosi:', (x*x - (4*y*z)))
