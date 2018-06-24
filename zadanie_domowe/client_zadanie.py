@@ -72,16 +72,15 @@ class PeopleClient:
         return response.json()
     def delete_by_name(self, name):
         tobedeleted = requests.get(self.base_url, params={'first_name': name}).json()
-        total = 0
+        print('Usunieto ', len(tobedeleted), ' rekordow')
         for idx, value in enumerate(tobedeleted):
-            total = total + 1
-        print('Usunieto ', total, ' rekordow')
-        return requests.delete(self.base_url, params={'first_name': name}).json()
+            self.delete_by_id(value['id'])
+
     def add_from_file(self, input_json_file):
         obj = json.load(input_json_file)
         headers = {'Content-type': 'application/json','Authorization':'Bearer '+self.token}
         for idx, name in enumerate(obj):
-            r = requests.put(self.base_url+"/"+str(obj[idx]["id"]), data=json.dumps(obj[idx]), headers=headers)
+            r = requests.post(self.base_url, data=json.dumps(obj[idx]), headers=headers)
             print(r.status_code, r.reason);
 
 

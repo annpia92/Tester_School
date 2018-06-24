@@ -1,6 +1,5 @@
 [
   {
-    "id": 53,
     "first_name": "Rupert",
     "last_name": "McCormick",
     "phone": "+51 (782) 917-3918",
@@ -8,49 +7,8 @@
     "ip_address": "150.5.119.105"
   },
   {
-    "id": 55,
-    "first_name": "Stafani",
-    "last_name": "Biggar",
-    "phone": "+86 (588) 368-3095",
-    "email": "sbiggar1i@ucoz.ru",
-    "ip_address": "49.253.78.191"
-  },
-  {
-    "id": 57,
-    "first_name": "Antonetta",
-    "last_name": "Plumtree",
-    "phone": "+994 (408) 120-9130",
-    "email": "aplumtree1k@unc.edu",
-    "ip_address": "247.129.236.225"
-  },
-  {
-    "id": 58,
-    "first_name": "Gram",
-    "last_name": "Hucker",
-    "phone": "+98 (434) 339-2699",
-    "email": "ghucker1l@theguardian.com",
-    "ip_address": "116.240.115.245"
-  },
-  {
-    "id": 62,
-    "first_name": "Edeline",
-    "last_name": "Calder",
-    "phone": "+55 (929) 241-8668",
-    "email": "ecalder1p@usda.gov",
-    "ip_address": "184.26.42.34"
-  },
-  {
-    "id": 66,
-    "first_name": "Glynis",
-    "last_name": "Presnell",
-    "phone": "+265 (625) 188-8094",
-    "email": "gpresnell1t@icio.us",
-    "ip_address": "100.154.127.144"
-  },
-  {
-    "id": 666,
-    "first_name": "Kizia",
-    "last_name": "Mizia",
+    "first_name": "Grzegorz",
+    "last_name": "Brzeczyszczykiewicz",
     "phone": "+595 (839) 344-2610",
     "email": "cmalimoe1u@rakuten.co.jp",
     "ip_address": "168.153.52.219"
